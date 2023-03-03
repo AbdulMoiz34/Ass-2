@@ -1,0 +1,404 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(160, 160, 160);
+}
+
+.main-head {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.5em;
+    color: white;
+}
+
+.main-head b {
+    color: orange;
+}
+
+.main {
+    width: 70%;
+    height: 1000px;
+    margin: 0 auto;
+}
+
+.box1 {
+    background-color: rgb(97, 97, 97);
+    height: 62vh;
+}
+
+.box2 {
+    background-color: rgb(70, 70, 70);
+    padding: 0.5em 0 3em 0;
+}
+
+/* navbar */
+
+.logo-icon {
+    color: orange;
+}
+
+.l-head {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+.nav ul {
+    padding: 0;
+}
+
+
+.nav li {
+    list-style: none;
+    display: inline-block;
+    width: 80px;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.3em;
+    padding: 10px;
+}
+
+
+.nav-icons {
+    margin: 15px 0 0 0;
+}
+
+
+
+.nav-icons img {
+    margin: 0 20px 0 0;
+}
+
+.nav li a:hover {
+    color: white;
+    background-color: green;
+    border-radius: 15px;
+}
+
+div.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2em;
+}
+
+/*                   STYLISH: "Name & also Paragraph"      1st para                */
+.name {
+    font-size: 40px;
+    position: relative;
+    text-shadow: 1px 1px 4px #fff;
+
+}
+
+.name:after {
+    content: "";
+    width: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-bottom: 3px solid orange;
+}
+
+.box-para {
+    width: 20vw;
+}
+
+p strong {
+    color: rgb(187, 187, 187);
+    font-weight: lighter;
+    font-size: 13px;
+    display: inline-block;
+    text-align: left;
+}
+
+p>i {
+    color: rgb(54, 54, 54);
+    font-size: 50px;
+}
+
+
+
+/* Image */
+
+div.circle {
+    padding: 20px;
+    height: 40vh;
+    position: relative;
+    top: 0;
+    background-color: rgb(53, 53, 53);
+    border-radius: 50%;
+}
+
+div.circle img {
+    width: 270px;
+    height: 350px;
+}
+
+
+/*                  ____________________________________                      */
+
+/*                           Para RIGHT (2nd para)                        */
+div.para2 {
+    width: 20vw;
+    padding: 10px;
+}
+
+div.para2 p b {
+    line-height: 50px;
+    font-size: 30px;
+}
+
+div.para2 p em {
+    font-size: 17px;
+    color: rgb(216, 205, 205);
+}
+
+div.para2-btn {
+    color: rgb(233, 153, 6);
+    font-weight: bolder;
+}
+
+span i {
+    margin-left: 0.5em;
+}
+
+ul.icons {
+    padding: 0;
+}
+
+ul.icons li {
+    list-style: none;
+    display: inline-block;
+    width: 2.4em;
+}
+
+ul.icons li i {
+    padding: 4px 5px;
+    color: rgb(255, 166, 0);
+    background-color: rgb(67, 66, 66);
+    border-radius: 10px;
+    transition: 0.5s;
+    font-size: 20px;
+}
+
+ul.icons li i:hover {
+    background-color: rgb(35, 35, 35);
+    color: rgb(229, 255, 0);
+    transform: scale(1.5);
+}
+
+.main-port {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* Images (google,meta etc) */
+
+div.images {
+    background-color: rgb(108, 108, 108);
+    width: 70%;
+    height: 15vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    box-shadow: 4px 4px 10px black;
+}
+
+
+div.images img {
+    padding: 4px;
+    background-color: rgb(87, 87, 87);
+    width: 8vw;
+}
+
+
+/* box2 styles  (BOTTTOM) */
+
+
+
+.bottom {
+    margin: 5em 3em 0 3em;
+}
+
+.heading {
+    width: 25vw;
+}
+
+.heading p {
+    margin: 0;
+    color: white;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+.para {
+    width: 20vw;
+}
+
+.para p {
+    color: rgb(154, 153, 153);
+}
+
+/* TABLE */
+
+.table div {
+    display: inline-block;
+}
+
+.table {
+    width: 30vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.table p {
+    margin: 0;
+    color: rgb(163, 163, 163);
+
+}
+
+.table h1 {
+    margin: 0;
+    color: orange;
+}
+
+.col1,
+.col3,
+.col2,
+.col4 {
+    width: 10vw;
+}
+
+/* CARDS */
+
+.bottom {
+    display: flex;
+}
+
+
+div.cards {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100vw;
+}
+
+div.card-1 {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(144, 144, 144);
+    position: relative;
+}
+
+.arrow {
+    position: absolute;
+    right: 0;
+    color: orange;
+}
+
+div.cards h3 {
+    color: white;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+div.cards p {
+    color: gray;
+    margin: 0;
+    padding: 0;
+}
+
+div.img1 {
+    width: 150px;
+    height: 100px;
+    background-image: url("../UIUX.jpg");
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+div.img2 {
+    width: 150px;
+    height: 100px;
+    background-image: url('../FrontEnd.jpg');
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+div.card-2 {
+    margin: 1em 0 0 0;
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-bottom: 1px solid rgb(144, 144, 144);
+}
+
+div.img3 {
+    width: 150px;
+    height: 100px;
+    background-image: url('../MobileApp.png');
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+div.card-3 {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(144, 144, 144);
+    position: relative;
+    margin: 1em 0 0 0;
+}
+
+
+/* cards One *Last Card* */
+
+div.cards-1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 5em 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+.cards-1 h2 {
+    color: white;
+}
+
+.cards-1 p {
+    color: rgb(169, 169, 169);
+    font-size: 17px;
+}
+
+.card-1-two {
+    margin: 0 2em 0 2em;
+}
+
+.card-1-one,
+.card-1-two,
+.card-1-three {
+    width: 25%;
+    /* height: 35vh; */
+    max-height: 45vh;
+    background-color: rgb(100, 99, 99);
+    border-radius: 20px;
+    padding: 8px 10px;
+    transition: 0.8s;
+}
+
+.icon img {
+    background-color: rgb(81, 81, 81);
+    padding: 5px;
+    width: 60px;
+    border-radius: 30%;
+}
+
+.card-1-one:hover,
+.card-1-two:hover,
+.card-1-three:hover {
+    background-color: rgba(6, 255, 23, 0.6);
+    transform: scale(1.1);
+}
